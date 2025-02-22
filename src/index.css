@@ -1,0 +1,40 @@
+.tipCalc div {
+    padding: 20px;
+    background: rgb(214, 214, 214);
+    margin: 50px auto;
+    box-shadow: 3px 3px 8px rgb(129, 129, 129);
+    border-radius: 20px 20px;
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+    margin: 0 auto;
+    width: 40%;
+}
+
+input,
+select {
+    padding: 7px;
+    font-size: 14px;
+    color: gray
+}
+
+.ResetBtn {
+    background: rgb(214, 214, 214);
+    border: none;
+    color: rgb(99, 99, 99);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: monospace;
+    cursor: pointer;
+    border-radius: 20px 20px;
+    box-shadow: 3px 3px 8px rgb(129, 129, 129);
+    
+}
+
+.ResetBtn:hover{
+    background: gray;
+    color:white
+}
